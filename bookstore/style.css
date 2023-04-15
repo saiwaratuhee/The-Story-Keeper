@@ -1,0 +1,124 @@
+body{
+    font-family: Arial;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(29,53,87);
+    width: 100%;
+}
+header img {
+    margin: 1%;
+}
+header .hf{
+    float: right;
+    margin: 1.5%;
+}
+header .hi{
+    background-color: #a5aebc;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    transition-duration: 0.5s; 
+    padding: 8px 30px;
+    cursor: pointer;
+    color: #1d3557;
+    font-weight: bold;
+    margin-top: 15%;
+}
+header .hi:hover{
+    background-color: #a5aebc;
+}
+
+
+table {
+    border-collapse: collapse;
+    margin: auto;
+}
+tr{background-color: #ffffff;}
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: rgb(29,53,87);
+    color: #ffffff;
+}
+table .btn{
+    background-color: #ec7115;
+    border: none;
+    text-align: center;
+    transition-duration: 0.5s; 
+    padding: 8px 30px;
+    cursor: pointer;
+    color: #ffffff;
+    margin-top: 5%;
+}
+table .btn:hover{
+    background-color: #ffffff;
+    color: #ec7115;
+}
+
+.button{
+    background-color: rgb(29,53,87);
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    transition-duration: 0.5s; 
+    padding: 8px 30px;
+    cursor: pointer;
+    color: #ffffff;
+    margin-top: 5%;
+    font-weight: bold;
+}
+.button:hover {
+    background-color: rgb(182, 160, 213);
+    color: #1d3557;
+}
+.cbtn{
+    background-color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    transition-duration: 0.5s; 
+    padding: 8px 30px;
+    cursor: pointer;
+    color: #1d3557;
+    font-weight: bold;
+}
+.cbtn:hover{
+    background-color: #ffffff;
+}
+
+form{
+	margin-top: 2%;
+}
+input[type=text], input[type=password]{	
+	width: 100%;
+	padding: 12px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    border: 2px solid #ffffff;
+    transition: 0.5s;
+    outline: none;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    border: 2px solid rgb(29,53,87);
+}
+textarea {
+	outline: none;
+	border: 2px solid #ffffff;
+}
+textarea:focus {
+	border: 2px solid rgb(29,53,87);
+}
+
+.container {
+	width: 55%;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
